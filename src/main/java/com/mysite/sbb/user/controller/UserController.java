@@ -20,6 +20,4 @@ public class UserController {
     public List<User> users() {
         return userRepository.findAll();
     }
-
-
 }
